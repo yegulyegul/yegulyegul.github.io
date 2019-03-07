@@ -1,0 +1,273 @@
+:root {
+  --dark-pink: #FF7A85;
+  --deep-pink: #FFACB7;
+  --light-pink: #FFD4DF;
+  --orange: #FF9614;
+  --deep-yellow: #FFDC3C;
+  --yellow: #FFF064;
+  --light-yellow: #FFFF96;
+  --light-yellow-gradient: #FEFFEF;
+}
+html,body {
+  background: linear-gradient(var(--light-yellow-gradient),var(--light-yellow)) !important;
+  height:unset !important;
+}
+header #header-bar>.row {
+  border-top: 5px solid var(--deep-pink) !important;
+  border-bottom: none;
+  border-right: none;
+}
+header #right-search-form>input[type=text]{
+  border: 3px solid var(--deep-pink) !important;
+}
+.fa-search:before {
+  color: var(--deep-pink);
+}
+header #header-bar #header-top-notice strong.notice-badge {
+  background: var(--deep-pink) !important;
+}
+#main .menu-wrapper>.header {
+  background: var(--deep-pink) !important;
+}
+header .row>div:nth-child(1)>a>img{
+  display: none !important;
+}
+header .row>div:nth-child(1)>a{
+  display: block;
+  height: 50px;
+  background: url(https://i.imgur.com/3Tis5fd.png) no-repeat;
+  background-size: auto 50px;
+}
+.fa-envelope-o:before{
+  color: var(--dark-pink);
+}
+/*메뉴*/
+.menu-wrapper {
+  border: 2px solid var(--dark-pink) !important;
+  border-radius: 20px;
+}
+#main .menu-wrapper :last-child {
+  border-bottom-left-radius: 18px !important;
+  border-bottom-right-radius: 18px !important;
+}
+#main .menu-wrapper>.header {
+  background: var(--deep-pink) !important;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+.fa-square:before{
+  color: var(--light-pink);
+}
+/**/
+#article-list #article-option-area>#article-option-area-toggle-btn{
+  display: none;
+}
+.fa-home:before{
+  color: var(--dark-pink);
+}
+#main #main-content>div.frame {
+  border: 2px solid var(--dark-pink) !important;
+  border-radius: 25px;
+}
+#board-info #viewers:before {
+  content:"찌게더에 트찌가 ";
+}
+#board-info #viewers:after {
+  content:"찌";
+}
+#main .menu-wrapper>a>em{
+  color: var(--light-pink) !important;
+}
+#main .menu-wrapper .spacer {
+  background : var(--light-pink) !important;
+}
+#board-info #board-info-bottom a{
+  color: var(--deep-pink);
+}
+#board-info h1{
+  border-bottom: 2px solid var(--deep-pink);
+  height: 1.8em;
+}
+#board-info h1 a{
+  color: var(--dark-pink);
+  font-weight: bold;
+  margin-left: 3em;
+}
+header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame{
+  box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.2);
+}
+#board-info #board-info-profile-img {
+  float: left !important;
+  border: 3px solid var(--deep-pink);
+  border-radius: 50px;
+  position: absolute;
+  top: -1em;
+  width: 4.6em !important;
+}
+.fa-smile-o:before,
+.fa-star:before,
+.fa-clock-o:before{
+  color: var(--dark-pink) !important;
+}
+#board-info{
+  height: auto !important;
+}
+/*게시판*/
+#article-list>.article-list-row.notice,
+#article-list #article-list-category>a{
+  background: transparent;
+}
+#article-list>.article-list-row>.item>.list-header>span{
+  background-color: var(--deep-pink);
+}
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span{
+  color: var(--deep-pink);
+}
+#article-list #article-list-category{
+  border: 2px solid var(--deep-pink);
+  background: transparent;
+  border-radius: 30px;
+}
+#article-list>.article-list-row>.item>.list-title>small.comment-count{
+  color: var(--dark-pink);
+}
+#article-list #article-list-category > a.active,
+#article-list #article-list-category>a:hover {
+  background: transparent;
+}
+/*하단 페이지 선택*/
+.pagination>li>a, .pagination>li>span{
+  color: var(--dark-pink);
+  border-radius: 30px !important;
+  border: 2px solid var(--dark-pink);
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: var(--dark-pink);
+    border-color: var(--dark-pink);
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    color: var(--dark-pink);
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: var(--light-pink);
+    border-color: var(--light-pink);
+}
+.input-group-btn>.btn{
+  border:none;
+}
+.input-group-btn,
+.input-group-btn .btn.btn-default,
+.input-group-btn>.btn:active, .input-group-btn>.btn:focus, .input-group-btn>.btn:hover
+.open>.dropdown-toggle.btn-default{
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border:none !important;
+  background: transparent !important;
+}
+.btn-default:hover,
+.open>.dropdown-toggle.btn-default{
+  background: transparent;
+}
+#article-list #boardSearchForm{
+  border: 2px solid var(--dark-pink);
+  border-radius: 15px;
+}
+#article-list #boardSearchForm > *{
+  border-right: 2px solid var(--dark-pink) !important;
+  border-left: none !important;
+  border-bottom: none !important;
+  border-top: none !important;
+}
+#article-list #boardSearchForm > :first-child{
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+#article-list #boardSearchForm > :last-child{
+  border-right: none !important;
+}
+.btn-primary,
+#article-list #article-list-menu>.btn.write{
+  background-color: var(--dark-pink);
+  border-radius: 10px !important;
+  border-color: var(--light-pink);
+}
+#article-list #article-list-menu>.btn.best {
+  border-radius: 10px !important;
+}
+#article-content-wrapper>.header{
+  border-top: 2px solid var(--dark-pink);
+}
+#article-content-wrapper>.header,
+#article-content-wrapper>.footer{
+  background: #FEF4F9;
+}
+#article-reply-area > .header h5,
+#article-reply-area > .header h5 > a{
+  color: var(--dark-pink);
+}
+#article-content-wrapper #article-content{
+  border-color: #FFF4F9;
+}
+#article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply{
+  border: 2px solid var(--deep-pink);
+  border-radius: 17px;
+}
+#article-reply-area #reply-real-area .reply > .reply-header,
+#article-reply-area #reply-best-area .reply>.reply-header{
+  background: transparent;
+  border-bottom: 2px solid var(--deep-pink);
+}
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged,
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged{
+  color: var(--dark-pink) !important;
+}
+/* 추천 하트로 변경
+#article-list>.article-list-row>.item>.list-header>span{
+    position: relative;
+    background-color: inherit;
+    z-index: 2;
+    border-radius: unset;
+}
+#article-list>.article-list-row>.item>.list-header>span:before,
+#article-list>.article-list-row>.item>.list-header>span:after{
+    z-index: -1;
+    position: absolute;
+    content: "";
+    left: 8px;
+    top: 0;
+    width: 8px;
+    height: 14px;
+    background: red;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+#article-list>.article-list-row>.item>.list-header>span:after{
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+.v0>span:before,
+.v0>span:after{
+  width: 0px !important;
+  height: 0px !important;
+}*/
