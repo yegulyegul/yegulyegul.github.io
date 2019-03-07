@@ -34,9 +34,9 @@ header .row>div:nth-child(1)>a>img{
 }
 header .row>div:nth-child(1)>a{
   display: block;
-  height: 50px;
+  height: 64px;
   background: url(https://yegulyegul.github.io/logo4.png) no-repeat;
-  background-size: auto 50px;
+  background-size: auto 64px;
 }
 .fa-envelope-o:before{
   color: var(--dark-pink);
