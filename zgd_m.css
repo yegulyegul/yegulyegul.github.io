@@ -8,12 +8,19 @@
   --light-yellow: #FFFF96;
   --light-yellow-gradient: #FEFFEF;
 }
+body{
+  background-color: #fff !important;
+}
 header{
   border-bottom: 4px solid var(--deep-pink);
+  background: #FEF4F9;
 }
 header>#header-area>a>h1{
   background: url(https://yegulyegul.github.io/logo4_m.png) no-repeat;
   width:97px !important;
+}
+nav#nav>.nav-header{
+  background: var(--dark-pink);
 }
 #header-top-notice strong.notice-badge{
   background: var(--deep-pink)
@@ -117,6 +124,11 @@ header>#header-area>a>h1{
 }
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span{
   color: var(--dark-pink) !important;
+}
+
+#article-list .article-list-row.hot,
+#article-list .article-list-row.notice{
+  background: #fff;
 }
 #article-list #article-list-category{
   border: 2px solid var(--deep-pink);
