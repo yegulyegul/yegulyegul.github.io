@@ -36,6 +36,13 @@ nav#nav>.nav-header{
 span.a-badge i.fa.fa-star{
   animation: star 2s 1s infinite;
 }
+#article-list>.article-list-row>.item>.list-title>.list-writer span :first-child{
+  animation: flower 2s 1s infinite;
+}
+@keyframes flower {
+  form { transform: rotate(-30deg);}
+  to{ transform: rotate(30deg);}
+}
 @keyframes zzi {
   form { top: 0px; }
   to { top: 3px; }
