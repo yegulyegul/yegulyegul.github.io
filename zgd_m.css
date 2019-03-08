@@ -1,0 +1,183 @@
+:root {
+  --dark-pink: #FF7A85;
+  --deep-pink: #FFACB7;
+  --light-pink: #FFD4DF;
+  --orange: #FF9614;
+  --deep-yellow: #FFDC3C;
+  --yellow: #FFF064;
+  --light-yellow: #FFFF96;
+  --light-yellow-gradient: #FEFFEF;
+}
+header{
+  border-bottom: 4px solid var(--deep-pink);
+}
+header>#header-area>a>h1{
+  background: url(https://yegulyegul.github.io/logo4_m.png) no-repeat;
+}
+.fa-search:before {
+  color: var(--deep-pink);
+}
+#main .menu-wrapper>.header {
+  background: var(--deep-pink) !important;
+}
+.fa-envelope-o:before{
+  color: var(--dark-pink);
+}
+.menu-wrapper {
+  border: 2px solid var(--dark-pink) !important;
+  border-radius: 20px;
+}
+#main .menu-wrapper :last-child {
+  border-bottom-left-radius: 18px !important;
+  border-bottom-right-radius: 18px !important;
+}
+#main .menu-wrapper>.header {
+  background: var(--deep-pink) !important;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+.fa-square:before{
+  color: var(--light-pink);
+}
+#article-list #article-option-area>#article-option-area-toggle-btn{
+  display: none;
+}
+.fa-home:before{
+  color: var(--dark-pink);
+}
+#main #main-content>div.frame {
+  border: 2px solid var(--dark-pink) !important;
+  border-radius: 25px;
+}
+#board-info #viewers:before {
+  content:"찌게더에 트찌가 ";
+}
+#board-info #viewers:after {
+  content:"찌";
+}
+#main .menu-wrapper>a>em{
+  color: var(--light-pink) !important;
+}
+#main .menu-wrapper .spacer {
+  background : var(--light-pink) !important;
+}
+#board-info #board-info-bottom a{
+  color: var(--deep-pink);
+}
+#board-info{
+  border-bottom: 2px solid var(--deep-pink);
+}
+#board-info h1 a{
+  color: var(--dark-pink);
+  font-weight: bold;
+}
+#board-info #board-info-profile-img {
+  border: 3px solid var(--deep-pink);
+  border-radius: 50px;
+  width: 4.6em !important;
+  height: 4.6em !important;
+}
+.fa-smile-o:before,
+.fa-star:before,
+.fa-clock-o:before{
+  color: var(--dark-pink) !important;
+}
+#article-list>.article-list-row.notice,
+#article-list #article-list-category>a{
+  background: transparent;
+}
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span{
+  color: var(--deep-pink);
+}
+#article-list #article-list-category{
+  border: 2px solid var(--deep-pink);
+  background: transparent;
+  border-radius: 30px;
+}
+#article-list>.article-list-row>.item>.list-title>small.comment-count{
+  color: var(--dark-pink);
+}
+#article-list #article-list-category > a.active,
+#article-list #article-list-category>a:hover {
+  background: transparent;
+}
+.pagination>li>a, .pagination>li>span{
+  color: var(--dark-pink);
+  border-radius: 30px !important;
+  border: 2px solid var(--dark-pink);
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: var(--dark-pink);
+    border-color: var(--dark-pink);
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    color: var(--dark-pink);
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: var(--light-pink);
+    border-color: var(--light-pink);
+}
+.input-group-btn>.btn{
+  border:none;
+}
+.input-group-btn,
+.input-group-btn .btn.btn-default,
+.input-group-btn>.btn:active, .input-group-btn>.btn:focus, .input-group-btn>.btn:hover
+.open>.dropdown-toggle.btn-default{
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border:none !important;
+  background: transparent !important;
+}
+.btn-default:hover,
+.open>.dropdown-toggle.btn-default{
+  background: transparent;
+}
+#article-list #boardSearchForm{
+  border: 2px solid var(--dark-pink);
+  border-radius: 15px;
+}
+#article-list #boardSearchForm > *{
+  border-right: 2px solid var(--dark-pink) !important;
+  border-left: none !important;
+  border-bottom: none !important;
+  border-top: none !important;
+}
+#article-list #boardSearchForm > :first-child{
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+#article-list #boardSearchForm > :last-child{
+  border-right: none !important;
+}
+.btn-primary,
+#article-list #article-list-menu>.btn.write{
+  background-color: var(--dark-pink);
+  border-radius: 10px !important;
+  border-color: var(--light-pink);
+}
+#article-list #article-list-menu>.btn.best {
+  border-radius: 10px !important;
+}
+#article-reply-area > .header h5,
+#article-reply-area > .header h5 > a{
+  color: var(--dark-pink);
+}
+#article-content-wrapper #article-content{
+  border-color: #FFF4F9;
+}
+#article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply{
+  border: 2px solid var(--deep-pink);
+  border-radius: 17px;
+}
+#article-reply-area #reply-real-area .reply > .reply-header,
+#article-reply-area #reply-best-area .reply>.reply-header{
+  background: transparent;
+  border-bottom: 2px solid var(--deep-pink);
+}
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged,
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged{
+  color: var(--dark-pink) !important;
+}
