@@ -13,6 +13,10 @@ header{
 }
 header>#header-area>a>h1{
   background: url(https://yegulyegul.github.io/logo4_m.png) no-repeat;
+  width:97px !important;
+}
+#header-top-notice strong.notice-badge{
+  background: var(--deep-pink)
 }
 .fa-search:before {
   color: var(--deep-pink);
@@ -58,6 +62,9 @@ header>#header-area>a>h1{
 #main .menu-wrapper>a>em{
   color: var(--light-pink) !important;
 }
+#article-list>.article-list-row>.item>.list-header>span{
+  background: var(--deep-pink);
+}
 #main .menu-wrapper .spacer {
   background : var(--light-pink) !important;
 }
@@ -66,7 +73,19 @@ header>#header-area>a>h1{
 }
 #board-info{
   border-bottom: 2px solid var(--deep-pink);
+  border-top: 2px solid var(--deep-pink);
 }
+#article-list>.article-list-row>.item>a.list-title>small.comment-count{
+  color: var(--dark-pink);
+}
+#board-info>a.board-right-menu{
+  background: var(--light-pink);
+  color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border:1px solid var(--deep-pink);
+}
+
 #board-info h1 a{
   color: var(--dark-pink);
   font-weight: bold;
@@ -87,7 +106,7 @@ header>#header-area>a>h1{
   background: transparent;
 }
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span{
-  color: var(--deep-pink);
+  color: var(--dark-pink) !important;
 }
 #article-list #article-list-category{
   border: 2px solid var(--deep-pink);
