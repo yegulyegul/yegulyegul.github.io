@@ -53,6 +53,16 @@ header>#header-area>a>h1{
   border: 2px solid var(--dark-pink) !important;
   border-radius: 25px;
 }
+.badge{
+  position: absolute;
+  left: 85px;
+  top: 147px;
+}
+#board-info #viewers-area{
+  position:absolute;
+  left: 85px;
+  top: 200px;
+}
 #board-info #viewers:before {
   content:"찌게더에 트찌가 ";
 }
