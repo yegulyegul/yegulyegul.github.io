@@ -50,7 +50,7 @@ span.a-badge i.fa.fa-star{
   animation: star 2s 1s infinite;
 }
 #article-list>.article-list-row>.item>.list-title>.list-writer span :first-child{
-  animation: flower 2s 1s infinite alternate;
+  animation: flower 1s 1s infinite alternate;
 }
 @keyframes flower {
   form { transform: rotate(-90deg);}
