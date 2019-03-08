@@ -100,7 +100,9 @@ nav#nav>.nav-header{
   color: white;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  border:1px solid var(--deep-pink);
+  border-left:1px solid var(--deep-pink);
+  border-right:1px solid var(--deep-pink);
+  border-bottom:1px solid var(--deep-pink);
 }
 
 #board-info h1 a{
