@@ -29,7 +29,13 @@ nav#nav>.nav-header{
   color: var(--deep-pink);
 }
 .fa-user:before{
+  position: relative;
   content:url(https://yegulyegul.github.io/z.png);
+  animation: zzi 3s 1s infinite alternate;
+}
+@keyframes zzi {
+  form { top: 0px; }
+  to { top: 3px; }
 }
 #main .menu-wrapper>.header {
   background: var(--deep-pink) !important;

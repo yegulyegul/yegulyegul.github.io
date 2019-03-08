@@ -42,7 +42,13 @@ header .row>div:nth-child(1)>a{
   color: var(--dark-pink);
 }
 .fa-user:before{
+  position: relative;
   content:url(https://yegulyegul.github.io/z.png);
+  animation: zzi 3s 1s infinite alternate;
+}
+@keyframes zzi {
+  form { top: 0px; }
+  to { top: 3px; }
 }
 .menu-wrapper {
   border: 2px solid var(--dark-pink) !important;
