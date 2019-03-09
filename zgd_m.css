@@ -2,7 +2,7 @@
   --dark-pink: #FF7A85;
   --deep-pink: #FFACB7;
   --light-pink: #FFD4DF;
-  --orange: #FF9614;
+  --orange: #ea7136;
   --deep-yellow: #FFDC3C;
   --yellow: #FFF064;
   --light-yellow: #FFFF96;
@@ -236,6 +236,9 @@ span.a-badge i.fa.fa-star{
 #article-reply-area > .header h5,
 #article-reply-area > .header h5 > a{
   color: var(--dark-pink);
+}
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a{
+  color: var(--orange);
 }
 #article-content-wrapper #article-content{
   border-color: #FFF4F9;
