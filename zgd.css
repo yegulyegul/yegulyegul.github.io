@@ -141,7 +141,7 @@ header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame{
   background-color: var(--deep-pink);
 }
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span{
-  color: var(--deep-pink);
+  color: var(--dark-pink) !important;
 }
 #article-list #article-list-category{
   border: 2px solid var(--deep-pink);
