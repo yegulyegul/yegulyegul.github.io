@@ -12,9 +12,14 @@ html,body {
   background: linear-gradient(var(--light-yellow-gradient),var(--light-yellow)) !important;
   height:unset !important;
 }
+header{
+  padding:0;
+}
+header .container{
+  margin-top: 10px;
+}
 header:before {
     content: " ";
-    margin-bottom: 10px;
     position: relative;
     height: 60px;
     background: url(https://yegulyegul.github.io/header.png) no-repeat var(--deep-pink);
