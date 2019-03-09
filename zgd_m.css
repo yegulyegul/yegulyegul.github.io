@@ -19,6 +19,13 @@ header>#header-area>a>h1{
   background: url(https://yegulyegul.github.io/logo4_m.png) no-repeat;
   width:97px !important;
 }
+nav#nav.hide{
+  display: block !important;
+  left: -300px;
+}
+nav#nav{
+  transition: 1s;
+}
 nav#nav>.nav-header{
   background: var(--dark-pink);
 }
