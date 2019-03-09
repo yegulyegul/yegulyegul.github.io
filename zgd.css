@@ -251,3 +251,7 @@ header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame{
   width: 48px;
   height: 68px;
 }
+
+#movetotop img{
+  display: none;
+}

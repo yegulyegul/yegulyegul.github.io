@@ -262,3 +262,6 @@ span.a-badge i.fa.fa-star{
   width: 48px;
   height: 68px;
 }
+#movetotop img{
+  display: none;
+}
