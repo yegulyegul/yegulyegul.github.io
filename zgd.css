@@ -250,6 +250,8 @@ header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame{
   background: url("https://yegulyegul.github.io/top.png");
   width: 48px;
   height: 68px;
+  opacity: 1.0;
+  margin-bottom:3em;
 }
 
 #movetotop img{

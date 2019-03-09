@@ -261,6 +261,9 @@ span.a-badge i.fa.fa-star{
   background: url("https://yegulyegul.github.io/top.png");
   width: 48px;
   height: 68px;
+  opacity: 1.0;
+  margin-right:3em;
+  margin-bottom:3em;
 }
 #movetotop img{
   display: none;
