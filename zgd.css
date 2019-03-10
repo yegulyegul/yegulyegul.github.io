@@ -22,9 +22,8 @@ header:before {
     content: " ";
     position: relative;
     height: 60px;
-    background: url(https://yegulyegul.github.io/header.png) no-repeat var(--deep-pink);
+    background: var(--deep-pink);
     background-position: center center;
-    display: none;
     text-align: center;
 }
 header #header-bar>.row {
