@@ -1,0 +1,277 @@
+:root {
+  --dark-pink: #FF7A85;
+  --deep-pink: #FFACB7;
+  --light-pink: #FFD4DF;
+  --orange: #ea7136;
+  --deep-yellow: #FFDC3C;
+  --yellow: #FFF064;
+  --light-yellow: #FFFF96;
+  --light-yellow-gradient: #FEFFEF;
+}
+body{
+  background-color: #fff !important;
+}
+header{
+  border-bottom: 4px solid var(--deep-pink);
+  background: #FEF4F9;
+}
+header>#header-area>a>h1{
+  background: url(https://yegulyegul.github.io/logo4_m.png) no-repeat;
+  width:97px !important;
+}
+nav#nav.hide{
+  display: block !important;
+  left: -300px;
+}
+nav#nav{
+  transition: 1s;
+}
+nav#nav>.nav-header{
+  background: var(--dark-pink);
+}
+#header-top-notice strong.notice-badge{
+  background: var(--deep-pink)
+}
+.fa-search:before {
+  color: var(--deep-pink);
+}
+.fa-user:before{
+  position: relative;
+  content:url(https://yegulyegul.github.io/z.png);
+  animation: zzi 1s infinite;
+}
+span.a-badge i.fa.fa-star{
+  animation: star 2s 1s infinite;
+}
+#article-list>.article-list-row>.item>.list-title>.list-writer span :first-child{
+  animation: flower 1s 1s infinite alternate;
+}
+@keyframes flower {
+  form { transform: rotate(-90deg);}
+  to{ transform: rotate(90deg);}
+}
+@keyframes zzi {
+  form { top: 0px; }
+  to { top: 3px; }
+}
+@keyframes star {
+  form { transform: rotate(0deg);}
+  to{ transform: rotate(360deg);}
+}
+#main .menu-wrapper>.header {
+  background: var(--deep-pink) !important;
+}
+.fa-envelope-o:before{
+  color: var(--dark-pink);
+}
+.menu-wrapper {
+  border: 2px solid var(--dark-pink) !important;
+  border-radius: 20px;
+}
+#main .menu-wrapper :last-child {
+  border-bottom-left-radius: 18px !important;
+  border-bottom-right-radius: 18px !important;
+}
+#main .menu-wrapper>.header {
+  background: var(--deep-pink) !important;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+.fa-square:before{
+  color: var(--light-pink);
+}
+#article-list #article-option-area>#article-option-area-toggle-btn{
+  display: none;
+}
+.fa-home:before{
+  color: var(--dark-pink);
+}
+#main #main-content>div.frame {
+  border: 2px solid var(--dark-pink) !important;
+  border-radius: 25px;
+}
+.badge{
+  position: absolute;
+  left: 85px;
+  top: 147px;
+}
+#board-info #viewers-area{
+  position:absolute;
+  left: 85px;
+  top: 200px;
+}
+#board-info #viewers:before {
+  content:"찌게더에 트찌가 ";
+}
+#board-info #viewers:after {
+  content:"찌";
+}
+#main .menu-wrapper>a>em{
+  color: var(--light-pink) !important;
+}
+#article-list>.article-list-row>.item>.list-header>span{
+  background: var(--deep-pink);
+}
+#main .menu-wrapper .spacer {
+  background : var(--light-pink) !important;
+}
+#board-info #board-info-bottom a{
+  color: var(--deep-pink);
+}
+#board-info{
+  border-bottom: 2px solid var(--deep-pink);
+  border-top: 2px solid var(--deep-pink);
+}
+#article-list>.article-list-row>.item>a.list-title>small.comment-count{
+  color: var(--dark-pink);
+}
+#board-info>a.board-right-menu{
+  background: var(--light-pink);
+  color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-left:1px solid var(--deep-pink);
+  border-right:1px solid var(--deep-pink);
+  border-bottom:1px solid var(--deep-pink);
+}
+
+#board-info h1 a{
+  color: var(--dark-pink);
+  font-weight: bold;
+}
+#board-info #board-info-profile-img {
+  border: 3px solid var(--deep-pink);
+  border-radius: 50px;
+  width: 4.6em !important;
+  height: 4.6em !important;
+}
+.fa-smile-o:before,
+.fa-star:before,
+.fa-clock-o:before{
+  color: var(--dark-pink) !important;
+}
+#article-list>.article-list-row.notice,
+#article-list #article-list-category>a{
+  background: transparent;
+}
+#article-list ::-webkit-scrollbar {
+  width: 1px;
+  display: none;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span{
+  color: var(--dark-pink) !important;
+}
+
+#article-list .article-list-row.hot,
+#article-list .article-list-row.notice{
+  background: #fff;
+}
+#article-list #article-list-category{
+  margin-top:10px;
+  border: 2px solid var(--deep-pink);
+  background: transparent;
+  border-radius: 30px;
+}
+#article-list>.article-list-row>.item>.list-title>small.comment-count{
+  color: var(--dark-pink);
+}
+#article-list #article-list-category > a.active,
+#article-list #article-list-category>a:hover {
+  background: transparent;
+}
+.pagination>li>a, .pagination>li>span{
+  color: var(--dark-pink);
+  border-radius: 30px !important;
+  border: 2px solid var(--dark-pink);
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: var(--dark-pink);
+    border-color: var(--dark-pink);
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    color: var(--dark-pink);
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: var(--light-pink);
+    border-color: var(--light-pink);
+}
+.input-group-btn>.btn{
+  border:none;
+}
+.input-group-btn,
+.input-group-btn .btn.btn-default,
+.input-group-btn>.btn:active, .input-group-btn>.btn:focus, .input-group-btn>.btn:hover
+.open>.dropdown-toggle.btn-default{
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border:none !important;
+  background: transparent !important;
+}
+.btn-default:hover,
+.open>.dropdown-toggle.btn-default{
+  background: transparent;
+}
+#article-list #boardSearchForm{
+  border: 2px solid var(--dark-pink);
+  border-radius: 15px;
+}
+#article-list #boardSearchForm > *{
+  border-right: 2px solid var(--dark-pink) !important;
+  border-left: none !important;
+  border-bottom: none !important;
+  border-top: none !important;
+}
+#article-list #boardSearchForm > :first-child{
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+#article-list #boardSearchForm > :last-child{
+  border-right: none !important;
+}
+.btn-primary,
+#article-list #article-list-menu>.btn.write{
+  background-color: var(--dark-pink);
+  border-radius: 10px !important;
+  border-color: var(--light-pink);
+}
+#article-list #article-list-menu>.btn.best {
+  border-radius: 10px !important;
+}
+#article-reply-area > .header h5,
+#article-reply-area > .header h5 > a{
+  color: var(--dark-pink);
+}
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a{
+  color: var(--orange);
+}
+#article-content-wrapper #article-content{
+  border-color: #FFF4F9;
+}
+#article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply{
+  border: 2px solid var(--deep-pink);
+  border-radius: 17px;
+}
+#article-reply-area #reply-real-area .reply > .reply-header,
+#article-reply-area #reply-best-area .reply>.reply-header{
+  background: transparent;
+  border-bottom: 2px solid var(--deep-pink);
+}
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged,
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged{
+  color: var(--dark-pink) !important;
+}
+
+#movetotop{
+  background: url("https://yegulyegul.github.io/top.png");
+  width: 48px;
+  height: 68px;
+  opacity: 1.0;
+  margin-right:3em;
+  margin-bottom:3em;
+}
+#movetotop img{
+  display: none;
+}
