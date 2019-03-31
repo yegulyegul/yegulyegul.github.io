@@ -13,6 +13,11 @@ html,body {
   background-position: center center;
   height:unset !important;
 }
+body:before {
+    position: fixed;
+    bottom: 0px;
+    content: url(https://yegulyegul.github.io/muj/bg.png);
+}
 header{
   padding:0;
 }
@@ -97,7 +102,7 @@ span.a-badge i.fa.fa-star{
   color: var(--light-pink);
 }
 #article-list {
-  background: url(https://i.ibb.co/rfVp98Z/5739c3642835b07669cbeaacb15966d1.png) no-repeat;
+  background: url(https://yegulyegul.github.io/muj/bg2.png) no-repeat;
   background-position: center center;
 }
 #article-list #article-option-area>#article-option-area-toggle-btn{

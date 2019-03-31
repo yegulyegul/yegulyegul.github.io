@@ -45,6 +45,11 @@ span.a-badge i.fa.fa-star{
 }
 #article-list>.article-list-row>.item>.list-title>.list-writer span :first-child{
   animation: flower 1s 1s infinite alternate;
+  background: transparent !important;
+}
+#article-list {
+    background: url(https://yegulyegul.github.io/muj/bg2.png) repeat-y;
+    background-position: top center;
 }
 @keyframes flower {
   form { transform: rotate(-90deg);}
@@ -265,7 +270,7 @@ span.a-badge i.fa.fa-star{
 }
 
 #movetotop{
-  background: url("https://yegulyegul.github.io/top.png");
+  background: url("https://yegulyegul.github.io/muj/top.png");
   width: 48px;
   height: 68px;
   opacity: 1.0;
