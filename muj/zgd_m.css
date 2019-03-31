@@ -16,7 +16,7 @@ header{
   background: #FEF4F9;
 }
 header>#header-area>a>h1{
-  background: url(https://yegulyegul.github.io/muj/logo4.png) no-repeat;
+  background: url(https://yegulyegul.github.io/muj/logo4_m.png) no-repeat;
   width:97px !important;
 }
 nav#nav.hide{
@@ -157,7 +157,7 @@ span.a-badge i.fa.fa-star{
 }
 #article-list>.article-list-row.notice,
 #article-list #article-list-category>a{
-  background: transparent;
+  background: transparent !important;
 }
 #article-list ::-webkit-scrollbar {
   width: 1px;
