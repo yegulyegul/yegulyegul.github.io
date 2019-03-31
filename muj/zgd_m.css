@@ -168,8 +168,7 @@ span.a-badge i.fa.fa-star{
   color: var(--dark-pink) !important;
 }
 
-#article-list .article-list-row.hot,
-#article-list .article-list-row.notice{
+#article-list .article-list-row{
   background: transparent !important;
 }
 #article-list #article-list-category{
