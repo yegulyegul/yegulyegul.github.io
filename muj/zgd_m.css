@@ -170,7 +170,7 @@ span.a-badge i.fa.fa-star{
 
 #article-list .article-list-row.hot,
 #article-list .article-list-row.notice{
-  background: transparent;
+  background: transparent !important;
 }
 #article-list #article-list-category{
   margin-top:10px;
