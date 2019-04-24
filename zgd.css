@@ -158,7 +158,6 @@ header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame{
 }
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span{
   color: var(--dark-pink) !important;
-  overflow: visible;
 }
 #article-list #article-list-category{
   border: 2px solid var(--deep-pink);
