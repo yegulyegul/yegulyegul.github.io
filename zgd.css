@@ -10,6 +10,7 @@
 }
 html,body {
   background: url(https://yegulyegul.github.io/backduck.png),linear-gradient(var(--light-yellow-gradient),var(--light-yellow)) !important;
+  animation: back 10s infinite linear;
   height:unset !important;
 }
 header{
@@ -78,7 +79,7 @@ span.a-badge i.fa.fa-star{
 }
 @keyframes back {
   form { background-position: 0px 0px, 0px 0px;}
-  to { background-position: -900px -900px, 0px 0px;}
+  to { background-position: -300px -300px, 0px 0px;}
 }
 @keyframes star {
   form { transform: rotate(0deg);}
