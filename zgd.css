@@ -77,8 +77,8 @@ span.a-badge i.fa.fa-star{
   to { top: 3px; }
 }
 @keyframes back {
-  form { background-position: 0px 0px;}
-  to { background-position: 1000px 1000px;}
+  form { background-position: 0px 0px, 0px 0px;}
+  to { background-position: -900px -900px, 0px 0px;}
 }
 @keyframes star {
   form { transform: rotate(0deg);}
