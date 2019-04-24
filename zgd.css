@@ -62,10 +62,10 @@ header .row>div:nth-child(1)>a{
   animation: zzi 1s infinite;
 }
 span.a-badge i.fa.fa-star{
-  animation: star 2s 1s infinite;
+  animation: star 1.5s 1s infinite linear;
 }
 #article-list>.article-list-row>.item>.list-title>.list-writer span :first-child{
-  animation: flower 1s 1s infinite alternate ease-in-out;
+  animation: flower 1.2s 1s infinite alternate ease-in-out;
   transform: rotate(-45deg);
 }
 @keyframes flower {
@@ -158,6 +158,7 @@ header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame{
 }
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span{
   color: var(--dark-pink) !important;
+  overflow: visible;
 }
 #article-list #article-list-category{
   border: 2px solid var(--deep-pink);
