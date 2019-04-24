@@ -10,7 +10,7 @@
 }
 html,body {
   background: url(https://yegulyegul.github.io/backduck.png),linear-gradient(var(--light-yellow-gradient),var(--light-yellow)) !important;
-  animation: back 10s infinite linear;
+  animation: back 20s infinite linear;
   height:unset !important;
 }
 header{
