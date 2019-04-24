@@ -9,7 +9,7 @@
   --light-yellow-gradient: #FEFFEF;
 }
 html,body {
-  background: linear-gradient(var(--light-yellow-gradient),var(--light-yellow)) !important;
+  background: url(https://yegulyegul.github.io/backduck.png),linear-gradient(var(--light-yellow-gradient),var(--light-yellow)) !important;
   height:unset !important;
 }
 header{
@@ -75,6 +75,10 @@ span.a-badge i.fa.fa-star{
 @keyframes zzi {
   form { top: 0px; }
   to { top: 3px; }
+}
+@keyframes back {
+  form { background-position: 0px 0px;}
+  to { background-position: 1000px 1000px;}
 }
 @keyframes star {
   form { transform: rotate(0deg);}
