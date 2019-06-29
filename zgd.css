@@ -7,9 +7,11 @@
   --yellow: #FFF064;
   --light-yellow: #FFFF96;
   --light-yellow-gradient: #FEFFEF;
+  --bg1: #FFF8F8;
+  --bg2: #FFD5D5;
 }
 html,body {
-  background: url(https://yegulyegul.github.io/backduck2.png),linear-gradient(var(--light-yellow-gradient),var(--light-yellow)) !important;
+  background: url(https://yegulyegul.github.io/backduck2.png),linear-gradient(var(--bg1),var(--bg2)) !important;
   animation: back 2400s infinite linear;
   height:unset !important;
 }
