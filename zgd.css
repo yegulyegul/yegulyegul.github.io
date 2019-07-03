@@ -277,6 +277,10 @@ header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame{
   margin-bottom:3em;
 }
 
+#movetotop:hover{
+  background: url("https://yegulyegul.github.io/top_.png");
+}
+
 #movetotop img{
   display: none;
 }
