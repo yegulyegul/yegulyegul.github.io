@@ -284,3 +284,22 @@ header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame{
 #movetotop img{
   display: none;
 }
+#board-info #board-info-bottom{
+  padding-top: 3px;
+  padding-left: 60px;
+  position: absolute;
+}
+
+#board-info #board-info-bottom #addFavoriteBtn {
+  color: rgba(0, 0, 0, 0);
+  position: absolute;
+  left: 0px;
+  top: 3px;
+}
+
+#board-info #board-info-bottom #addFavoriteBtn:after{
+  content:'즐겨찾기';
+  color: var(--dark-pink) !important;
+  position: relative;
+  left: -70px;
+}
