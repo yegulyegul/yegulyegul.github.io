@@ -286,13 +286,10 @@ header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame{
 }
 #board-info #board-info-bottom{
   padding-top: 3px;
-  padding-left: 60px;
-  position: absolute;
 }
 
 #board-info #board-info-bottom #addFavoriteBtn {
   color: rgba(0, 0, 0, 0);
-  position: absolute;
   left: 0px;
   top: 3px;
 }
