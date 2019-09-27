@@ -1,14 +1,14 @@
 ﻿:root {
-  --dark-pink: #FF7A85;
-  --deep-pink: #FFACB7;
-  --light-pink: #FFD4DF;
+  --dark-pink: #2c8b28;
+  --deep-pink: #5cb01c;
+  --light-pink: #76da4e;
   --orange: #ea7136;
   --deep-yellow: #FFDC3C;
   --yellow: #FFF064;
   --light-yellow: #FFFF96;
   --light-yellow-gradient: #FEFFEF;
-  --bg1: #FFF8F8;
-  --bg2: #FFD5D5;
+  --bg2: #76da4e;
+  --bg1: #cdf6a5;
 }
 html,body {
   background: url(https://yegulyegul.github.io/backduck2.png),linear-gradient(var(--bg1),var(--bg2)) !important;

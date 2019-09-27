@@ -1,12 +1,14 @@
 :root {
-  --dark-pink: #FF7A85;
-  --deep-pink: #FFACB7;
-  --light-pink: #FFD4DF;
+  --dark-pink: #2c8b28;
+  --deep-pink: #5cb01c;
+  --light-pink: #76da4e;
   --orange: #ea7136;
   --deep-yellow: #FFDC3C;
   --yellow: #FFF064;
   --light-yellow: #FFFF96;
   --light-yellow-gradient: #FEFFEF;
+  --bg2: #76da4e;
+  --bg1: #cdf6a5;
 }
 body{
   background-color: #fff !important;
