@@ -7,8 +7,8 @@
   --yellow: #FFF064;
   --light-yellow: #FFFF96;
   --light-yellow-gradient: #FEFFEF;
-  --bg2: #ffdc55;
-  --bg1: #ffe78d;
+  --bg2: #ffe78d;
+  --bg1: #ffefb3;
 }
 html,body {
   background: linear-gradient(var(--bg1),var(--bg2)) !important;
