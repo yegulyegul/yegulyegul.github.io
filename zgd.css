@@ -1,5 +1,5 @@
 ﻿:root {
-  --dark-pink: #2c8b28;
+  --dark-pink: #79cf79;
   --deep-pink: #5cb01c;
   --light-pink: #76da4e;
   --orange: #ea7136;
@@ -7,7 +7,7 @@
   --yellow: #FFF064;
   --light-yellow: #FFFF96;
   --light-yellow-gradient: #FEFFEF;
-  --bg2: #79cf79;
+  --bg2: #ffdc55;
   --bg1: #ffe78d;
 }
 html,body {
@@ -88,7 +88,7 @@ span.a-badge i.fa.fa-star{
   to{ transform: rotate(360deg);}
 }
 .menu-wrapper {
-  border: 2px solid var(--dark-pink) !important;
+  border: none !important;
   border-radius: 20px;
 }
 #main .menu-wrapper :last-child {
@@ -110,7 +110,7 @@ span.a-badge i.fa.fa-star{
   color: var(--dark-pink);
 }
 #main #main-content>div.frame {
-  border: 2px solid var(--dark-pink) !important;
+  border: none !important;
   border-radius: 25px;
 }
 #board-info #viewers:before {
@@ -167,7 +167,7 @@ header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame{
   color: var(--dark-pink) !important;
 }
 #article-list #article-list-category{
-  border: 2px solid var(--deep-pink);
+  border: none;
   background: transparent;
   border-radius: 30px;
 }
