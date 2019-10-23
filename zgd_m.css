@@ -1,5 +1,5 @@
 :root {
-  --dark-pink: #2c8b28;
+  --dark-pink: #79cf79;
   --deep-pink: #5cb01c;
   --light-pink: #76da4e;
   --orange: #ea7136;
@@ -7,8 +7,8 @@
   --yellow: #FFF064;
   --light-yellow: #FFFF96;
   --light-yellow-gradient: #FEFFEF;
-  --bg2: #79cf79;
-  --bg1: #ffdc55;
+  --bg2: #ffdc55;
+  --bg1: #ffe78d;
 }
 body{
   background-color: #fff !important;
